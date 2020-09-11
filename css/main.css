@@ -18,6 +18,7 @@ h2 {
 }
 
 body {
+  flex-grow: 1;
   margin: 0;
 }
 
@@ -27,11 +28,9 @@ a {
   background-color: #444;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
   margin: auto;
-}
 
-img {
-  width: 100px;
 }
 
 li {
@@ -41,6 +40,10 @@ li {
   align-items: center;
 }
 
-hgroup {
+img {
   width: 100px;
+}
+
+p {
+  max-width: 25rem;
 }
