@@ -38,10 +38,5 @@ img {
 
 li {
   list-style-type: none;
-}
-
-section {
-  list-style-type: none;
-  text-align: left;
-  display: inline-block;
+  display: flex;
 }
